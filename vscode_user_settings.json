@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        ".mybashrc": "shellscript"
+    },
+    "python.linting.lintOnSave": true,
+    "window.zoomLevel": 1,
+    "explorer.autoReveal": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "files.exclude": {
+        "**/._*": true
+    }
+}

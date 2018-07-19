@@ -12,5 +12,6 @@
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "files.exclude": {
         "**/._*": true
-    }
+    },
+    "editor.rulers": [80,120]
 }

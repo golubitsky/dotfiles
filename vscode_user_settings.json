@@ -1,8 +1,14 @@
 {
     "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.formatOnSave": true,
     "files.associations": {
         ".mybashrc": "shellscript"
     },
+    "python.linting.pep8Enabled": true,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
     "python.linting.lintOnSave": true,
     "window.zoomLevel": 1,
     "explorer.autoReveal": true,
@@ -13,5 +19,10 @@
     "files.exclude": {
         "**/._*": true
     },
-    "editor.rulers": [80,120]
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
 }

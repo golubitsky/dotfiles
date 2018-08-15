@@ -27,8 +27,8 @@
     "workbench.colorCustomizations": {
         "tab.unfocusedInactiveForeground": "#4a6e7e",
         "tab.unfocusedActiveForeground": "#73acc5",
-        "tab.inactiveForeground": "#275f77",
-        "tab.activeForeground": "#dd157d",
+        "tab.inactiveForeground": "#6caecb",
+        "tab.activeForeground": "#d75fcd",
         "list.inactiveSelectionBackground": "#0c4c63"
     },
 }

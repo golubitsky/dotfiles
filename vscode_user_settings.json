@@ -1,28 +1,34 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 500,
-    "editor.formatOnSave": true,
-    "files.associations": {
-        ".mybashrc": "shellscript"
-    },
-    "python.linting.pep8Enabled": true,
-    "python.formatting.autopep8Args": [
-        "--max-line-length=120"
-    ],
-    "python.linting.lintOnSave": true,
-    "window.zoomLevel": 1,
-    "explorer.autoReveal": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.minimap.enabled": false,
-    "window.title": "${activeEditorMedium}${separator}${rootName}",
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "files.exclude": {
-        "**/._*": true
-    },
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
     "editor.rulers": [
         80,
         120
     ],
     "explorer.confirmDelete": false,
+    "explorer.autoReveal": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.associations": {
+        ".mybashrc": "shellscript"
+    },
+    "files.exclude": {
+        "**/._*": true
+    },
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
+    "python.linting.enabled": false,
+    "workbench.colorCustomizations": {
+        "tab.unfocusedInactiveForeground": "#4a6e7e",
+        "tab.unfocusedActiveForeground": "#73acc5",
+        "tab.inactiveForeground": "#275f77",
+        "tab.activeForeground": "#dd157d",
+        "list.inactiveSelectionBackground": "#0c4c63"
+    },
 }

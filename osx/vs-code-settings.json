@@ -1,0 +1,77 @@
+{
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.associations": {
+        ".mybashrc": "shellscript",
+        "raptor": "shellscript"
+    },
+    "files.exclude": {
+        "_nidb.so": true,
+        ".cache": true,
+        ".eggs": true,
+        ".ipynb_checkpoints": true,
+        ".vscode": true,
+        "*.egg-info": true,
+        "**/._*": true,
+        "build": true,
+        "dist": true
+    },
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "editor.formatOnSave": true,
+    "workbench.colorCustomizations": {
+        "tab.unfocusedInactiveForeground": "#4a6e7e",
+        "tab.unfocusedActiveForeground": "#73acc5",
+        "tab.inactiveForeground": "#6caecb",
+        "tab.activeForeground": "#d75fcd",
+        "list.inactiveSelectionBackground": "#0c4c63"
+    },
+    "cSpell.userWords": [
+        "artifactory",
+        "autopep",
+        "awesomest",
+        "controlm",
+        "dbos",
+        "dbosapnums",
+        "hostnames",
+        "jsonify",
+        "library",
+        "maninvestments",
+        "mgolubitsky",
+        "mikeg",
+        "nimongo",
+        "numeric",
+        "parametrize",
+        "pytest",
+        "pytz",
+        "reinstantiate",
+        "repo",
+        "repos",
+        "testing",
+        "truthy",
+        "value",
+        "whitelisted",
+        "whitelisting"
+    ],
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}

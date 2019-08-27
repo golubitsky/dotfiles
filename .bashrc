@@ -1,4 +1,3 @@
-
 # git aliases
 
 alias gs="git_status"

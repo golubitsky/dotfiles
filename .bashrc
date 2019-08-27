@@ -1,0 +1,74 @@
+
+# git aliases
+
+alias gs="git_status"
+alias gch="git_checkout"
+alias gb="git_checkout_branch"
+alias gaa="git_add_all"
+alias gcom="git_commit"
+alias gpl="git_pull"
+alias gpsh="git_push"
+alias gdf="git_diff"
+alias gdfc="git_diff_to_be_commited"
+alias gm="git_merge"
+alias gl="git_log"
+alias gmnd="git_amend"
+alias glc="git_last_commit"
+
+git_last_commit() {
+  git diff HEAD^ HEAD
+}
+
+git_amend() {
+  git commit --amend --no-edit
+}
+
+git_status() { 
+  git status "$@"
+}
+
+git_checkout() { 
+    git checkout "$@"
+}
+
+git_checkout_branch() {
+  if [ -z "$1" ]; then
+    git branch
+  elif [$2 && [${$1:0:1} == "-"] ]; then
+    git branch "$@"
+  elif [ -z "$2" ]; then
+    git checkout -b "$1"
+  fi
+}
+  
+git_add_all() { 
+  git add -A 
+}
+
+git_commit() {
+  git commit -m "$1"
+}
+
+git_pull() {
+  git pull "$@"
+}
+
+git_push() {
+  git push "$@"
+}
+
+git_diff() {
+  git --no-pager diff
+}
+
+git_diff_to_be_commited() {
+  git diff --cached
+}
+
+git_merge() {
+  git merge "$1"
+}
+
+git_log() {
+  git log --pretty=oneline -10
+}

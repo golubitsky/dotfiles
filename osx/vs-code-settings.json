@@ -8,6 +8,8 @@
     "explorer.confirmDelete": false,
     "explorer.autoReveal": true,
     "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "files.associations": {
@@ -30,7 +32,6 @@
     ],
     "window.title": "${activeEditorMedium}${separator}${rootName}",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8CategorySeverity.W": "Error",
@@ -48,14 +49,12 @@
         "artifactory",
         "autopep",
         "awesomest",
-        "controlm",
-        "dbos",
-        "dbosapnums",
         "hostnames",
         "jsonify",
         "library",
         "mgolubitsky",
         "mikeg",
+        "nimongo",
         "parametrize",
         "pytest",
         "pytz",
@@ -71,4 +70,12 @@
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "editor.detectIndentation": false,
+    "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
+    "editor.formatOnSaveTimeout": 5000,
+    "ruby.rubocop.executePath": "/usr/local/bin/",
+    "ruby.format": "rubocop",
 }

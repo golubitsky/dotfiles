@@ -1,0 +1,21 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Mike Golubitsky
+	email = mike617@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = blue
+	changed = green
+	untracked = red

@@ -30,16 +30,17 @@ set_prompt() {
     local bg="48"
     local fg="38"
 
-    # Colours
+    # Colours -- https://en.wikipedia.org/wiki/ANSI_escape_code see "8-bit"
     local black="16"
     local blue="27"
     local cyan="51"
-    local green="46"
+    local green="118"
     local orange="202"
     local purple="201"
-    local red="31"
+    local red="9"
     local white="15"
     local yellow="11"
+    local light_blue="87"
 
     # Controls
     local blink_off="25"
@@ -64,12 +65,16 @@ set_prompt() {
 
     local git_info=$(__git_ps1)
     if [[ ${git_info} ]]; then
-        git_info="$(font ${fg} ${red})${git_info}$(font)"
+        git_info="$(font ${fg} ${light_blue})${git_info}$(font)"
     fi
 
     PS1="$(font ${fg} ${white})${user}@$(font ${fg} ${white})${host}$(font) "
     PS1+="$(font ${fg} ${green})${pwd}${git_info}$(font)"
     PS1+="\n$(font ${fg} ${white})\$$(font) "
+
+    # Ensure \n after cat command: https://unix.stackexchange.com/a/60469/288238
+    shopt -s promptvars
+    PS1='$(printf "%$((COLUMNS-1))s\r")'$PS1
 }
 
 GIT_PS1_SHOWUPSTREAM="auto"     # '<' behind, '>' ahead, '<>' diverged, '=' no difference

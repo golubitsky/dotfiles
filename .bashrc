@@ -1,4 +1,5 @@
 # show git branch + colorize
+# curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh > ~/.bash_git
 source ~/.bash_git
 
 font() {

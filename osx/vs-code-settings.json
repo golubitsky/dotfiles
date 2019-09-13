@@ -92,4 +92,6 @@
         "enabled": true,
         "args": []
     },
+    "xmlTools.splitXmlnsOnFormat": true,
+    "xmlTools.splitAttributesOnFormat": true,
 }

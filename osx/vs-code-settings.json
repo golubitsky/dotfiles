@@ -16,6 +16,7 @@
         ".mybashrc": "shellscript",
         "raptor": "shellscript"
     },
+    "ruby.intellisense": "rubyLocate",
     "files.exclude": {
         "_nidb.so": true,
         ".cache": true,
@@ -78,4 +79,17 @@
     "editor.formatOnSaveTimeout": 5000,
     "ruby.rubocop.executePath": "/usr/local/bin/",
     "ruby.format": "rubocop",
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
 }

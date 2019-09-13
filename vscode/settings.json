@@ -71,16 +71,16 @@
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[ruby]": {
-        "editor.tabSize": 2
-    },
     "editor.detectIndentation": false,
     "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
     "editor.formatOnSaveTimeout": 5000,
     "ruby.rubocop.executePath": "/usr/local/bin/",
     "ruby.format": "rubocop",
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
     "terraform.indexing": {
-        "enabled": false,
+        "enabled": true,
         "liveIndexing": false,
         "delay": 500,
         "exclude": [
@@ -89,9 +89,10 @@
         ]
     },
     "terraform.languageServer": {
-        "enabled": true,
+        "enabled": false,
         "args": []
     },
-    "xmlTools.splitXmlnsOnFormat": true,
-    "xmlTools.splitAttributesOnFormat": true,
+    "[terraform]": {
+        "editor.tabSize": 2
+    },
 }

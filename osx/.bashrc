@@ -144,7 +144,7 @@ git_push() {
 }
 
 git_diff() {
-  git --no-pager diff
+  git diff
 }
 
 git_diff_to_be_commited() {

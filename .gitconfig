@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Mike Golubitsky
+	name = Mikhail Golubitsky
 	email = mike617@gmail.com
 [color]
 	branch = auto

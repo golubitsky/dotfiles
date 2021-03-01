@@ -1,4 +1,4 @@
-source ~/.bash_prompt
+source ~/bash/.bash_git_prompt
 
 # Python
 

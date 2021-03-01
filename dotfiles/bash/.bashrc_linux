@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # BASH CUSTOMIZATION BEGIN
-source ./.bashrc_common
+source ~/bash/.bash_common
 
 # History partial search via up arrow (https://askubuntu.com/a/475614)
 bind '"\e[A": history-search-backward'
